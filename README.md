@@ -1,0 +1,1 @@
+# MP06-JPA-mapped-XML

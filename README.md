@@ -34,16 +34,6 @@ El sistema proporciona consultas predefinidas para cada entidad y permite visual
 - Listar departamentos
 - Listar profesores
 
-## Ejecución del Proyecto
-
-Para ejecutar el proyecto, sigue estos pasos:
-
-1. Clona este repositorio en tu máquina local.
-2. Importa el proyecto en tu entorno de desarrollo preferido (Eclipse, IntelliJ, etc.).
-3. Asegúrate de tener una instancia de PostgreSQL ejecutándose y configurada según lo especificado en `persistence.xml`.
-4. Ejecuta el método `cargarDatos` en la clase `SchoolMain` para cargar los datos desde los archivos.
-5. Ejecuta los métodos de impresión correspondientes en `SchoolMain` para visualizar los datos en la consola.
-
 ## Notas
 
-- Asegúrate de tener las bibliotecas de Hibernate y JPA en tu classpath para poder compilar y ejecutar el proyecto correctamente.
+- Yo Daniel Gamero Delgado, me he encargado de hacer JPA con mapeado XML; la base de datos mas algunas clases las hemos hecho en conjunto todo el grupo.

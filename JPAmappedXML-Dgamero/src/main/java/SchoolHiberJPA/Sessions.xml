@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd"
+                 version="2.2">
+
+    <entity class="com.example.Sessions">
+        <table name="sessions"/>
+        <attributes>
+            <id name="weekDay">
+                <column name="week_day"/>
+            </id>
+            <basic name="starts">
+                <column name="starts" column-definition="TIME"/>
+            </basic>
+            <basic name="finishes">
+                <column name="finishes" column-definition="TIME"/>
+            </basic>
+            <many-to-one name="teacher" fetch="LAZY">
+                <join-column name="teacher_id" referencedColumnName="id"/>
+            </many-to-one>
+            <basic name="subjectCode">
+                <column name="subject_code"/>
+            </basic>
+            <basic name="groupCode">
+                <column name="group_code"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

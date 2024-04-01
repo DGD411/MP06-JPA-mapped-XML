@@ -1,0 +1,7 @@
+GROUP001,Computer Science,1
+GROUP002,Physics,2
+GROUP003,Chemistry,1
+GROUP004,Mathematics,3
+GROUP005,History,2
+GROUP006,Geography,1
+GROUP007,English,2

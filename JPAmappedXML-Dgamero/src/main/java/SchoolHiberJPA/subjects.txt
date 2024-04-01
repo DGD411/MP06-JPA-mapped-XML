@@ -1,0 +1,7 @@
+MATH101,Mathematics
+PHYSICS101,Physics
+CHEM101,Chemistry
+BIOLOGY101,Biology
+HIST101,History
+GEO101,Geography
+ENG101,English
